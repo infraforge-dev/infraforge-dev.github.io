@@ -1,0 +1,27 @@
+<!-- _layouts/default.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+  <header>
+    <h1><a href="/{{ site.baseurl }}/">{{ site.title }}</a></h1>
+    <nav>
+      <a href="/{{ site.baseurl }}/">Home</a>
+      <a href="/{{ site.baseurl }}/blog/">Blog</a>
+      <a href="https://github.com/InfraForge-dev">GitHub</a>
+      <a href="https://www.linkedin.com/in/InfraForge-dev">LinkedIn</a>
+    </nav>
+  </header>
+  <main>
+    {{ content }}
+  </main>
+  <footer>
+    <p>&copy; {{ site.time | date: "%Y" }} InfraForge.dev</p>
+  </footer>
+</body>
+</html>

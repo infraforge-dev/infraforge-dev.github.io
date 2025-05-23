@@ -1,0 +1,11 @@
+title: InfraForge.dev
+description: Forging purposeful APIs & DevOps pipelines
+baseurl: "/blog"      # the subpath of your site, e.g. /blog
+url: "https://infraforg-dev.github.io"  # your base URL
+
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Jekyll settings
+date_format: "%B %-d, %Y"
